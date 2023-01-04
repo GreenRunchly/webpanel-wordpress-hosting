@@ -5,14 +5,14 @@
     define("ONEPANEL_DOMAIN", $_SERVER['SERVER_NAME']);
     define("ONEPANEL_FILE_USER", 'qiktLwHNDmP9bN');
     define("ONEPANEL_FILE_PASS", 'wrrDZDnuDQvUig');
-    define("ONEPANEL_DB_NAME", 'sILD7tOWWpiGyl');
-    define("ONEPANEL_DB_USER", 'sILD7tOWWpiGyl');
-    define("ONEPANEL_DB_PASS", 'EfeSWwuexGtMX5');
-    define("ONEPANEL_DB_HOST", 'localhost:3306');
+    define("ONEPANEL_DB_NAME", 'fillyourself');
+    define("ONEPANEL_DB_USER", 'fillyourself');
+    define("ONEPANEL_DB_PASS", 'fillyourself');
+    define("ONEPANEL_DB_HOST", 'fillyourself');
     
     /// User Login Panel
-    define('ONEPANEL_ADMIN_USER','rizki'); // Username untuk masuk
-    define('ONEPANEL_ADMIN_PASS','Juancok1878'); // Password untuk masuk
+    define('ONEPANEL_ADMIN_USER','admin'); // Username untuk masuk
+    define('ONEPANEL_ADMIN_PASS','admin123'); // Password untuk masuk
     
     /// Sub Website GIT Sync
     /// NOTE : Direktori yang dipilih akan TERHAPUS sepenuhnya, jadi harap perhatikan direktori mana yang dipilih
