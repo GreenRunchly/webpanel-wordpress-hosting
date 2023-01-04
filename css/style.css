@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'MainFonts';
+    src: url(fonts/mplusrounded1c-medium-webfont.woff2);
+}
+@keyframes spin-anim{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(359deg);
+    }
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+html{
+    font-family: "MainFonts";
+    scroll-behavior: smooth;
+}
+body {
+    display: block;
+    color: #555;
+    min-height: 100vh;
+    margin:0px;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /*background-color: #f1f1f1;*/
+    background-color: #84ADEA;
+    /*background-image: linear-gradient(38deg, rgba(0,163,255,0.4720821434042367) 17%, rgba(209,0,255,0.40765637309611347) 80%);*/
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+img{
+    max-width: 100%;
+}
+hr{
+    border:1px solid gray;
+    width:100%;
+    display:block;
+}
+body h1{
+    font-size: 40px;
+}
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    margin:0px;
+    padding:0px; 
+    font-weight: normal;
+    color: #333;
+    line-height: 1.2;
+    color: white;
+}
+a{
+    -webkit-tap-highlight-color: transparent;
+}
+p{
+    margin: 0px;
+}
+.klik:hover{
+    cursor: pointer;
+}
+.anim-rotate{
+    animation: spin-anim 1s infinite;
+}
+
+.app-main{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding-top:48px;
+    padding-bottom:48px;
+}
+.rak{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.rak .rak-box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    min-height: 60px;
+    height: fit-content;
+    margin:16px;
+    padding:16px;
+    max-width: 250px;
+    max-height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 16px;
+    background-color: white;
+}
+.rak .rak-box i{
+    font-size: 25px;
+    color: black;
+    margin-left: 8px;
+    margin-right: 16px;
+}
+.rak .rak-box .sub-rak-box{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    font-family: arial;
+}
+.rak .rak-box .sub-rak-box a{
+    text-decoration: none;
+}
+.rak .rak-box .sub-rak-box h2{
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    margin-right: 8px;
+}
+.rak .rak-box .sub-rak-box span{
+    text-align: left;
+    font-size: 14px;
+    color: black;
+}
+/*Mobile ya kak*/
+@media only screen and (max-width: 960px){
+    
+}
